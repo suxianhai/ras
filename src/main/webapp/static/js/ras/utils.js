@@ -3,7 +3,7 @@
  */
 define(function(require, exports, module) {
 	
-	var templates = require('ras/template');
+	var templates = require('ras/core/template');
 	require('plugins/jquery.mCustomScrollbar.min');
 	require('plugins/jquery.mousewheel.min');
 
