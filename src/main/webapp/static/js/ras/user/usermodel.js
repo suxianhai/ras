@@ -3,10 +3,8 @@ define(function(require, exports, module){
 	var UserModel = Backbone.Model.extend({
 		pageNo:1,
 		pageSize:10,
-		initialize : function(options){
+		initialize : function(options){//构造方法
 			this.options = options||{};
-//			this.beginDate = Date.create().beginningOfMonth().format('{yyyy}-{MM}-{dd}');
-//			this.endDate = Date.create().endOfMonth().format('{yyyy}-{MM}-{dd}');
 		},
 		/**
 		 * 查询用户信息
